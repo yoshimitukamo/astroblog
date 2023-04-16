@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/Users/kamoyoshimitsu/個人開発/astro/versions/lib/node_modules'
+export NPM_CONFIG_PREFIX='/Users/kamoyoshimitsu/個人開発/astro/versions'
+export npm_config_prefix='/Users/kamoyoshimitsu/個人開発/astro/versions'
+exec 'versions/bin/node' "$@"
